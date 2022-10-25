@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.product {
+  height: 200px;
+  width: 200px;
+  border: 5px solid gray;
+}
+
+.products {
+  width: 50rem;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products li {
+  padding: 1rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  color: white;
+}
+
+.total {
+  margin-top: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: grey;
+  font-size: 20px;
+  color: white;
+}
